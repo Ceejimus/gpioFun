@@ -1,0 +1,3 @@
+#!/bin/bash
+
+gcc -o blinker blinker.c -l wiringPi -l pthread
