@@ -2,8 +2,8 @@
 #include <wiringPi.h>
 #include <pthread.h>
 
-const int grnLed = 18;
-const int redPin = 23;
+const int grnLed = 23;
+const int redPin = 18;
 const int butPin = 17;
 
 const int pwmValue = 75;
