@@ -1,3 +1,4 @@
 #!/bin/bash
 
 gcc -o blinker blinker.c -l wiringPi -l pthread
+gcc -o i2cprobe i2cprobe.c -l wiringPi -l pthread
